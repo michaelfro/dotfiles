@@ -15,10 +15,12 @@ style = "Regular"
 
 [window]
 opacity = 0.6
+dynamic_padding = true
+decorations = "None"
 
 [window.padding]
-x=7
-y=7
+x=1
+y=1
 
 [colors.primary]
 foreground = "#d8cab8"
