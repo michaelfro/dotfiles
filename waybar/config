@@ -1,0 +1,81 @@
+{
+ "layer": "bot",
+  "spacing": 15,
+  "height": 0,
+  "margin-bottom": 0,
+  "margin-top": 8,
+  "position": "top",
+  "margin-right": 370,
+  "margin-left": 370,
+  "modules-left": [
+    "custom/applauncher",
+    "hyprland/workspaces",
+  ],
+  "modules-center": [
+    "clock",
+  ],
+  "modules-right": [
+    "cpu",
+    "memory",
+    "custom/power" 
+  ],
+"hyprland/workspaces": {
+        "on-click": "activate",
+        "format": "{icon}",
+        "format-icons": {
+            "default": "",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "active": "󱓻",
+            "urgent": "󱓻"
+        },
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        }
+    },
+  "cpu" : {
+    "interval": 10, 
+    "format": "{usage}% ", 
+    "max-length":20
+  },
+  "memory": {
+	"interval": 30,
+	"format": "{used:0.1f}G/{total:0.1f}G "
+},
+  "custom/applauncher": {
+    "format": "",
+    "on-click": "pgrep wofi >/dev/null 2>&1 && killall wofi || wofi --show drun --location=top -y 10",
+    "tooltip": false
+  },
+  "clock": {
+    "format": "{:%H:%M %A, %d %B %Y}",
+    "tooltip": true,
+    "tooltip-format": "<span>{calendar}</span>",
+    "calendar": {
+        "mode": "month",
+      "format": {
+        "months": "<span foreground='#ac82e9'><b>{}</b></span>",
+        "weekdays": "<span foreground='#ac82e9'><b>{}</b></span>",
+        "days": "<span foreground='#ac82e9'>{}</span>",
+        "today": "<span foreground='#ac82e9'><b>{}</b></span>"
+      }
+    } 
+  },
+  "custom/power": {
+    "format": "", 
+    "tooltip": false,
+    "on-click": "~/.config/waybar/scripts/powermenu.sh",
+    "tooltip": false
+  },
+}

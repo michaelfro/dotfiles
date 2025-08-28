@@ -1,0 +1,53 @@
+[font]
+size = 12.0
+
+[font.bold]
+family = "AurulentSansMNerdFontMono"
+style = "Bold"
+
+[font.italic]
+family = "AurulentSansMNerdFontMono"
+style = "Italic"
+
+[font.normal]
+family = "AurulentSansMNerdFontMono"
+style = "Regular"
+
+[window]
+opacity = 0.6
+
+[window.padding]
+x=7
+y=7
+
+[colors.primary]
+foreground = "#d8cab8"
+background = "#141216"
+
+[colors.cursor]
+text = "#c8cab8"
+cursor =  "#ac82e9"
+
+[cursor]
+style = {shape="Beam",blinking="On"}
+
+[colors.normal]
+black = "#2b2135"
+red = "#fc4649"
+green = "#c4e881"
+yellow = "#f3fc7b"
+blue = "#7b91fc"
+magenta = "#fc92fc"
+cyan = "#92fcfa"
+white = "#d8cab8"
+
+[colors.bright]
+black = "#2b2135"
+red = "#fc4649"
+green = "#c4e881"
+yellow = "#f3fc7b"
+blue = "#7b91fc"
+magenta = "#fc92fc"
+cyan = "#92fcfa"
+white = "#d8cab8"
+

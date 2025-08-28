@@ -1,0 +1,11 @@
+font:
+  normal:
+    family: AurulentSansMNerdFontMono
+    style: Regular
+  bold:
+    family: AurulentSansMNerdFontMono
+    style: Bold
+  italic:
+    family: AurulentSansMNerdFontMono
+    style: Italic
+  size: 12.0

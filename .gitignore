@@ -1,0 +1,8 @@
+*.o
+*.out
+*.class
+
+*.log
+
+discord/
+spotify/
