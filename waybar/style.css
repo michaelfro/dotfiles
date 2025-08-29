@@ -1,5 +1,5 @@
 * {
-  font-family: AurulentSansMNerdFontMono;
+  font-family: JetbrainsMono;
   border-radius: 8;
   font-size: 14px;
   padding: 0px;
@@ -50,7 +50,7 @@ window#waybar {
 }
 
 #custom-power {
-  font-size:20px;
+  font-size:17px;
   padding: 0 10px;
   color: #ff5555;
   border-radius: 20px;
@@ -61,6 +61,7 @@ window#waybar {
 }
 
 #custom-applauncher {
+  font-size:15px;
   font-weight: bold;
   transition-duration: 120ms;
   padding: 0px 25px 0px 25px;

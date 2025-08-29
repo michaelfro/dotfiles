@@ -2,15 +2,15 @@
 size = 12.0
 
 [font.bold]
-family = "AurulentSansMNerdFontMono"
+family = "JetBrainsMonoNerdFont"
 style = "Bold"
 
 [font.italic]
-family = "AurulentSansMNerdFontMono"
+family = "JetBrainsMonoNerdFont"
 style = "Italic"
 
 [font.normal]
-family = "AurulentSansMNerdFontMono"
+family = "JetBrainsMonoNerdFont"
 style = "Regular"
 
 [window]
