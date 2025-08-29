@@ -5,8 +5,8 @@
   "margin-bottom": 0,
   "margin-top": 8,
   "position": "top",
-  "margin-right": 370,
-  "margin-left": 370,
+  "margin-right": 10, 
+  "margin-left": 10,
   "modules-left": [
     "custom/applauncher",
     "hyprland/workspaces",
@@ -15,6 +15,7 @@
     "clock",
   ],
   "modules-right": [
+    "pulseaudio",
     "cpu",
     "memory",
     "custom/power" 
@@ -46,12 +47,12 @@
     },
   "cpu" : {
     "interval": 10, 
-    "format": "CPU {usage}%", 
+    "format": "CPU  {usage}%", 
     "max-length":20
   },
   "memory": {
 	"interval": 30,
-	"format": "MEM {used:0.1f} / {total:0.1f} G"
+	"format": "RAM  {used:0.1f} / {total:0.1f} G"
 },
   "custom/applauncher": {
     "format": "",
@@ -78,4 +79,9 @@
     "on-click": "~/.config/waybar/scripts/powermenu.sh",
     "tooltip": false
   },
+  "pulseaudio":{
+    "format": "VOL  {volume}%",
+    "tooltip": false,
+    "on-click" : "pavucontrol",
+  }
 }

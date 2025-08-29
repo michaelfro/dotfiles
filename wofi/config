@@ -1,5 +1,5 @@
 show=drun
-term=kitty
+term=alacritty
 show_all=true
 gtk_dark=false
 location=center
