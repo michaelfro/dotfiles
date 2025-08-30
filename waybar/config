@@ -91,13 +91,18 @@
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
         "mode": "month",
+        "on-scroll": 1,
       "format": {
         "months": "<span foreground='#ac82e9'><b>{}</b></span>",
         "weekdays": "<span foreground='#ac82e9'><b>{}</b></span>",
         "days": "<span foreground='#ac82e9'>{}</span>",
         "today": "<span foreground='#ac82e9'><b>{}</b></span>"
       }
-    } 
+    },
+    "actions": {
+        "on-scroll-up": "shift_up",
+        "on-scroll-down": "shift_down"
+    }
   },
   "custom/power": {
     "format": "  ", 
