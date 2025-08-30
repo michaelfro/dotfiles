@@ -29,6 +29,19 @@ window#waybar {
   color: #ac82e9;
 }
 
+#temperature:hover{
+  color:#ac82e9;
+}
+
+#mpris:hover{
+  color: #ac82e9;
+}
+
+#custom-note{
+  font-size: 17;
+  font-weight: bold;
+}
+
 #custom-applauncher,
 #workspaces,
 

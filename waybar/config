@@ -1,6 +1,6 @@
 {
  "layer": "bot",
-  "spacing": 15,
+  "spacing": 0,
   "height": 0,
   "margin-bottom": 0,
   "margin-top": 8,
@@ -10,13 +10,18 @@
   "modules-left": [
     "custom/applauncher",
     "hyprland/workspaces",
-  ],
+     ],
   "modules-center": [
     "clock",
-  ],
+          ],
   "modules-right": [
+    "custom/note",
+    "mpris",
+    "custom/separator",
     "pulseaudio",
+    "custom/separator",
     "cpu",
+    "custom/separator",
     "memory",
     "custom/power" 
   ],
@@ -45,6 +50,22 @@
             "5": []
         }
     },
+
+
+"custom/separator": {
+  "format": "  |  ",
+  "tooltip": false
+},
+
+"custom/note": {
+  "format": "♪ ",
+  "tooltip": false
+},
+  "mpris": {
+    "tooltip": false,
+    "format": " {artist} - {title} ",
+    "dynamic-len" : 10,
+  },
   "cpu" : {
     "interval": 10, 
     "format": "CPU  {usage}%", 
