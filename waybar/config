@@ -63,8 +63,13 @@
 },
   "mpris": {
     "tooltip": false,
-    "format": " {artist} - {title} ",
-    "dynamic-len" : 10,
+    "format": " {dynamic} ",
+    "title-len": 20,
+    "artist-len": 20,
+    "dynamic-len": 40,
+    "dynamic-order": ["artist","title","album"],
+    "dynamic-importance-order": ["title","artist","album"],
+    "ellipsis":"...",
   },
   "cpu" : {
     "interval": 10, 
