@@ -78,7 +78,7 @@
   },
   "memory": {
 	"interval": 30,
-	"format": "RAM  {percentage} %"
+	"format": "RAM {percentage} %"
 },
   "custom/applauncher": {
     "format": "",
