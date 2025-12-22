@@ -12,17 +12,13 @@
     "hyprland/workspaces",
      ],
   "modules-center": [
-    "clock",
-          ],
-  "modules-right": [
     "custom/note",
     "mpris",
     "custom/separator",
     "pulseaudio",
-    "custom/separator",
-    "cpu",
-    "custom/separator",
-    "memory",
+          ],
+  "modules-right": [
+    "clock",
     "custom/power" 
   ],
 "hyprland/workspaces": {
