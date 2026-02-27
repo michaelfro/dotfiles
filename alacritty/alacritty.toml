@@ -35,7 +35,8 @@ style = {shape="Beam",blinking="On"}
 
 [colors.normal]
 black = "#2b2135"
-red = "#fc4649"
+# red = "#fc4649"
+red = "#fc5f62" # lightened the red slightly
 green = "#c4e881"
 yellow = "#f3fc7b"
 blue = "#7b91fc"
@@ -45,7 +46,8 @@ white = "#d8cab8"
 
 [colors.bright]
 black = "#2b2135"
-red = "#fc4649"
+# red = "#fc4649"
+red = "#fc5f62"
 green = "#c4e881"
 yellow = "#f3fc7b"
 blue = "#7b91fc"
